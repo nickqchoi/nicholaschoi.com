@@ -1,1 +1,1 @@
-Personal Website. nicholaschoi.com
+Personal Website. https://nicholaschoi.com/
