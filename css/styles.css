@@ -1,0 +1,105 @@
+@import url('./fonts.css');
+
+html body { 
+    background-color: black;
+}
+
+html body, html body .nav-link  { 
+    font-family: satoshilight; 
+    font-size: 20px;
+    color: rgb(191, 191, 191);
+}
+
+html body span { 
+    font-family:falsesemi-bold;
+    color:white;
+    font-variation-settings:wght 900.0;
+    margin-top:20px;
+}
+
+html body .bg123 { 
+    background: rgba(255, 255, 255, 0.117);
+    box-shadow: 0 20px 48px 0 rgba(66, 9, 190, 0.37);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+}
+
+.nav-pills > li > a:hover {
+    color: white !important;
+}
+
+.nav-link.active { 
+    background-color: black !important; 
+    color:white !important; 
+    font-family:satoshimedium !important; 
+}
+
+html {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+html::-webkit-scrollbar { 
+    display: none;  
+}
+
+html body h3 { 
+    font-family:falsesemi-bold;
+    color:white;
+    font-variation-settings:wght 900.0;
+    margin-top:20px;
+}
+
+#bottom {
+    background-color:hsla(0,0%,0%,1);
+    background-image:
+    radial-gradient(at 40% 20%, hsla(26,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 34% 51%, hsla(279,49%,30%,0.7) 0px, transparent 50%),
+    radial-gradient(at 82% 53%, hsla(268,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(0,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 79% 74%, hsla(285,0%,0%,0.45) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(342,0%,0%,1) 0px, transparent 50%);
+}
+
+#footspan { 
+    font-family: satoshilight !important; 
+    font-size: 20px;
+    color: rgb(191, 191, 191);
+}
+
+html footer span { 
+    font-family: satoshilight !important; 
+    font-size: 20px;
+    color: rgb(191, 191, 191);
+}
+
+.button-div {
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition:  0.5s ease, transform 0.5s ease;
+    background-clip: padding-box;
+    padding:0px;
+}
+
+.button-div:hover {
+    border: 1px solid rgb(191, 191, 191);
+    transform: translateY(-6px); 
+}
+
+html body a { 
+    text-decoration:none;
+    color:inherit;
+}
+
+
+
+
+
+
+
+
+
+ 
